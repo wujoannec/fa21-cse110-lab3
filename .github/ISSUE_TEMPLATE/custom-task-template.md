@@ -7,5 +7,4 @@ assignees: wujoannec
 
 ---
 
-Purpose:
-Task:
+Purpose/task:
