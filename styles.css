@@ -1,0 +1,17 @@
+/*colors*/
+body {
+    background-color: #ffd9d9
+}
+
+h3{
+    color:hsl(118, 0%, 32%);
+}
+
+#owo{
+    color: salmon;
+}
+
+.span1{
+    color: rgba(255, 77, 71, 0.5);
+}
+
