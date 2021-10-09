@@ -1,5 +1,5 @@
 /* font */
-div{
+div*{
     font-family: 'Andada Pro', serif;
 }
 
@@ -102,6 +102,9 @@ img{
     align-items: center;
     background-color: rgb(253, 241, 244);
 }
+a[href$="ood"], #uwu{
+    font-weight: bold;    
+}
 #div4{
     display:grid;
     grid-column-gap: 80px;
@@ -109,3 +112,24 @@ img{
 
     grid-template-columns: 1fr 1fr 1fr;
 }
+
+ol span{
+    color: red;
+}
+
+li>i{
+    color:coral;
+}
+
+header ~ h3{
+    color:red
+}
+
+li:first-of-type + li{
+    color:seagreen;
+}
+
+li.test{
+    text-transform: uppercase;
+}
+
