@@ -1,3 +1,4 @@
+/* font */
 div{
     font-family: 'Andada Pro', serif;
 }
@@ -7,9 +8,16 @@ h1 {
     font-size: xxx-large;
 }
 
+
 /*colors*/
 body {
     background-color: #ffd9d9
+
+}
+@media only screen and (max-width: 600px) {
+    body{
+        background-color:#90ee90;
+    }
 }
 
 h3{
@@ -44,12 +52,14 @@ a:active{
     color:powderblue;
 }
 
+
+/* spacing etc */
 #div1{
     position: relative;
     margin-top: 3vh;
-    margin-left: 10vh;
-    margin-right: 2em;
-    margin-bottom: 50px;
+    margin-left: 2vh;
+    margin-right: 50vmax;
+    margin-bottom: 4em;
     padding-top: 1pt;
     padding-bottom: 1cm;
     padding-left: 30px;
@@ -59,6 +69,8 @@ a:active{
     border-width: 10px;
     border-radius: 10px;
     display: block;
+    min-width: 30%;
+    max-width: 30%;
 }
 
 #div2{
@@ -82,7 +94,18 @@ img{
 }
 /* footer */
 #div3{
+    margin: 15px;
+    padding: 20px;
     display:flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction:column;
+    gap: 20px;
+    align-items: center;
+    background-color: rgb(253, 241, 244);
+}
+#div4{
+    display:grid;
+    grid-column-gap: 80px;
+    grid-template-rows: 1fr 0fr 0fr;
+
+    grid-template-columns: 1fr 1fr 1fr;
 }
